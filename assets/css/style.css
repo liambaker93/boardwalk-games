@@ -6,7 +6,7 @@
     --primary-font: "inter", sans-serif;
     --secondary-font: "Macondo", cursive;
     --primary-color: #3a2620;  /* dark brown */
-    --secondary-color: #aa9581; /* light orange */
+    --secondary-color: #aa9581; /* light brown */
     --highlight-color: #416a8e; /* blue */
     --highlight-color-light: #7a9fc2; /* light blue */
 }
@@ -67,6 +67,13 @@ h2 {
 
 #services .card {
     margin-bottom: 1.5rem;
+}
+
+/* Games grid */
+
+#new-games .card,
+#fav-games .card {
+    border: none;
 }
 
 /* Grid visualisation css for testing */
