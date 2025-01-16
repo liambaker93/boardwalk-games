@@ -65,6 +65,23 @@ h2 {
     color: white;
 }
 
+.custom-button-student {
+    border: 2px solid var(--highlight-color);
+    border-radius: 0;
+    background-color: var(--highlight-color);
+    color: white;
+
+}
+
+.custom-button-student:hover {
+    border: 2px solid var(--highlight-color);
+    border-radius: 0;
+    background-color: var(--highlight-color);
+    color: white;
+
+}
+
+
 /* Navbar */
 
 #navbar {
@@ -98,6 +115,13 @@ h2 {
 #new-games .card,
 #fav-games .card {
     border: none;
+}
+
+/* Events table */
+
+.event-highlight:hover * {
+    background-color: var(--highlight-color);
+    color: white;
 }
 
 /* Footer / contact */
