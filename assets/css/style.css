@@ -14,7 +14,7 @@
 
 body {
     font-family: var(--primary-font);
-    padding-top: 57.14px; /*pushes the top of the header below the navbar */
+    padding-top: 57.15px; /*pushes the top of the header below the navbar */
 }
 
 h1,
